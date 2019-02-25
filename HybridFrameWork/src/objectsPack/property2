@@ -1,0 +1,15 @@
+website=file:///D:/ITTraning/WebSite/SuperTech.html
+
+SM=Social Media
+
+Google=Google
+Googlesearch=q
+
+SCB=.//*[@id='btnConfirm']
+
+Facebook=Facebook
+FN=firstname
+PW=//*[@id=\"u_0_o\"]
+
+
+

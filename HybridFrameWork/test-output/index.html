@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\maksu\AppData\Local\Temp\testng-eclipse-1314899531\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , CHILDWINDOW1, , , )">HybridUnderTest(, , CHILDWINDOW1, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , CHILDWINDOW1, , , )">HybridUnderTest(, , CHILDWINDOW1, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , CHILDWINDOW2, , , )">HybridUnderTest(, , CHILDWINDOW2, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , SUBMENUHANDLING, SM, LINKTEXT, )">HybridUnderTest(, , SUBMENUHANDLING, SM, LINKTEXT, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , SUBMENUHANDLING, SM, LINKTEXT, )">HybridUnderTest(, , SUBMENUHANDLING, SM, LINKTEXT, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , THREAD, , , )">HybridUnderTest(, , THREAD, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , CLICK, SCB, XPATH, )">HybridUnderTest(, , CLICK, SCB, XPATH, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , MAINWINDOW, , , )">HybridUnderTest(, , MAINWINDOW, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , SENDKEYS, Googlesearch, NAME, Bangladesh)">HybridUnderTest(, , SENDKEYS, Googlesearch, NAME, Bangladesh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , THREAD, , , )">HybridUnderTest(, , THREAD, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(TC-002, Submenu Handling, GOTOURL, , , website)">HybridUnderTest(TC-002, Submenu Handling, GOTOURL, , , website)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(TC-003, , MAINWINDOW, , , )">HybridUnderTest(TC-003, , MAINWINDOW, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , SENDKEYS, FN, NAME, MAKSUD)">HybridUnderTest(, , SENDKEYS, FN, NAME, MAKSUD)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , SENDKEYS, Googlesearch, NAME, New York)">HybridUnderTest(, , SENDKEYS, Googlesearch, NAME, New York)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , SCREENSHOT, , , )">HybridUnderTest(, , SCREENSHOT, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , CLICK, Google, LINKTEXT, )">HybridUnderTest(, , CLICK, Google, LINKTEXT, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , CLEAR, Googlesearch, NAME, )">HybridUnderTest(, , CLEAR, Googlesearch, NAME, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , HIGHLIGHT, PW, XPATH, )">HybridUnderTest(, , HIGHLIGHT, PW, XPATH, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , THREAD, , , )">HybridUnderTest(, , THREAD, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , THREAD, , , )">HybridUnderTest(, , THREAD, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , ALERTHANDLING, , , )">HybridUnderTest(, , ALERTHANDLING, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCasePack.HybridTestCase" class="method navigator-link" hash-for-method="HybridUnderTest(, , CLICK, Facebook, LINKTEXT, )">HybridUnderTest(, , CLICK, Facebook, LINKTEXT, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCasePack.HybridTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , CHILDWINDOW1, , , )">
+                  </a> <!-- HybridUnderTest(, , CHILDWINDOW1, , , ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , CHILDWINDOW1, , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , CHILDWINDOW1, , , )">
+                  </a> <!-- HybridUnderTest(, , CHILDWINDOW1, , , ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , CHILDWINDOW1, , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , CHILDWINDOW2, , , )">
+                  </a> <!-- HybridUnderTest(, , CHILDWINDOW2, , , ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , CHILDWINDOW2, , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , SUBMENUHANDLING, SM, LINKTEXT, )">
+                  </a> <!-- HybridUnderTest(, , SUBMENUHANDLING, SM, LINKTEXT, ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , SUBMENUHANDLING, SM, LINKTEXT, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , SUBMENUHANDLING, SM, LINKTEXT, )">
+                  </a> <!-- HybridUnderTest(, , SUBMENUHANDLING, SM, LINKTEXT, ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , SUBMENUHANDLING, SM, LINKTEXT, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , THREAD, , , )">
+                  </a> <!-- HybridUnderTest(, , THREAD, , , ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , THREAD, , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , CLICK, SCB, XPATH, )">
+                  </a> <!-- HybridUnderTest(, , CLICK, SCB, XPATH, ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , CLICK, SCB, XPATH, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , MAINWINDOW, , , )">
+                  </a> <!-- HybridUnderTest(, , MAINWINDOW, , , ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , MAINWINDOW, , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , SENDKEYS, Googlesearch, NAME, Bangladesh)">
+                  </a> <!-- HybridUnderTest(, , SENDKEYS, Googlesearch, NAME, Bangladesh) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , SENDKEYS, Googlesearch, NAME, Bangladesh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , THREAD, , , )">
+                  </a> <!-- HybridUnderTest(, , THREAD, , , ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , THREAD, , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(TC-002, Submenu Handling, GOTOURL, , , website)">
+                  </a> <!-- HybridUnderTest(TC-002, Submenu Handling, GOTOURL, , , website) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(TC-002, Submenu Handling, GOTOURL, , , website)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(TC-003, , MAINWINDOW, , , )">
+                  </a> <!-- HybridUnderTest(TC-003, , MAINWINDOW, , , ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(TC-003, , MAINWINDOW, , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , SENDKEYS, FN, NAME, MAKSUD)">
+                  </a> <!-- HybridUnderTest(, , SENDKEYS, FN, NAME, MAKSUD) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , SENDKEYS, FN, NAME, MAKSUD)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , SENDKEYS, Googlesearch, NAME, New York)">
+                  </a> <!-- HybridUnderTest(, , SENDKEYS, Googlesearch, NAME, New York) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , SENDKEYS, Googlesearch, NAME, New York)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , SCREENSHOT, , , )">
+                  </a> <!-- HybridUnderTest(, , SCREENSHOT, , , ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , SCREENSHOT, , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , CLICK, Google, LINKTEXT, )">
+                  </a> <!-- HybridUnderTest(, , CLICK, Google, LINKTEXT, ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , CLICK, Google, LINKTEXT, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , CLEAR, Googlesearch, NAME, )">
+                  </a> <!-- HybridUnderTest(, , CLEAR, Googlesearch, NAME, ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , CLEAR, Googlesearch, NAME, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , HIGHLIGHT, PW, XPATH, )">
+                  </a> <!-- HybridUnderTest(, , HIGHLIGHT, PW, XPATH, ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , HIGHLIGHT, PW, XPATH, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , THREAD, , , )">
+                  </a> <!-- HybridUnderTest(, , THREAD, , , ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , THREAD, , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , THREAD, , , )">
+                  </a> <!-- HybridUnderTest(, , THREAD, , , ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , THREAD, , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , ALERTHANDLING, , , )">
+                  </a> <!-- HybridUnderTest(, , ALERTHANDLING, , , ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , ALERTHANDLING, , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HybridUnderTest(, , CLICK, Facebook, LINKTEXT, )">
+                  </a> <!-- HybridUnderTest(, , CLICK, Facebook, LINKTEXT, ) -->
+                  <span class="method-name">HybridUnderTest</span>
+                  <span class="parameters">(, , CLICK, Facebook, LINKTEXT, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\maksu\AppData\Local\Temp\testng-eclipse-1314899531\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCasePack.HybridTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'HybridUnderTest')
+data.setCell(0, 2, 'testCasePack.HybridTestCase')
+data.setCell(0, 3, 4384);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'HybridUnderTest')
+data.setCell(1, 2, 'testCasePack.HybridTestCase')
+data.setCell(1, 3, 3012);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'HybridUnderTest')
+data.setCell(2, 2, 'testCasePack.HybridTestCase')
+data.setCell(2, 3, 3010);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'HybridUnderTest')
+data.setCell(3, 2, 'testCasePack.HybridTestCase')
+data.setCell(3, 3, 3008);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'HybridUnderTest')
+data.setCell(4, 2, 'testCasePack.HybridTestCase')
+data.setCell(4, 3, 3006);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'HybridUnderTest')
+data.setCell(5, 2, 'testCasePack.HybridTestCase')
+data.setCell(5, 3, 1277);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'HybridUnderTest')
+data.setCell(6, 2, 'testCasePack.HybridTestCase')
+data.setCell(6, 3, 1216);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'HybridUnderTest')
+data.setCell(7, 2, 'testCasePack.HybridTestCase')
+data.setCell(7, 3, 1041);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'HybridUnderTest')
+data.setCell(8, 2, 'testCasePack.HybridTestCase')
+data.setCell(8, 3, 310);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'HybridUnderTest')
+data.setCell(9, 2, 'testCasePack.HybridTestCase')
+data.setCell(9, 3, 159);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'HybridUnderTest')
+data.setCell(10, 2, 'testCasePack.HybridTestCase')
+data.setCell(10, 3, 152);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'HybridUnderTest')
+data.setCell(11, 2, 'testCasePack.HybridTestCase')
+data.setCell(11, 3, 141);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'HybridUnderTest')
+data.setCell(12, 2, 'testCasePack.HybridTestCase')
+data.setCell(12, 3, 138);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'HybridUnderTest')
+data.setCell(13, 2, 'testCasePack.HybridTestCase')
+data.setCell(13, 3, 112);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'HybridUnderTest')
+data.setCell(14, 2, 'testCasePack.HybridTestCase')
+data.setCell(14, 3, 90);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'HybridUnderTest')
+data.setCell(15, 2, 'testCasePack.HybridTestCase')
+data.setCell(15, 3, 88);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'HybridUnderTest')
+data.setCell(16, 2, 'testCasePack.HybridTestCase')
+data.setCell(16, 3, 70);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'HybridUnderTest')
+data.setCell(17, 2, 'testCasePack.HybridTestCase')
+data.setCell(17, 3, 58);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'HybridUnderTest')
+data.setCell(18, 2, 'testCasePack.HybridTestCase')
+data.setCell(18, 3, 49);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'HybridUnderTest')
+data.setCell(19, 2, 'testCasePack.HybridTestCase')
+data.setCell(19, 3, 48);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'HybridUnderTest')
+data.setCell(20, 2, 'testCasePack.HybridTestCase')
+data.setCell(20, 3, 32);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'HybridUnderTest')
+data.setCell(21, 2, 'testCasePack.HybridTestCase')
+data.setCell(21, 3, 19);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCasePack.HybridTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(TC-002, Submenu Handling, GOTOURL, , , website)</span>
+                <span class="method-start">5670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , SUBMENUHANDLING, SM, LINKTEXT, )</span>
+                <span class="method-start">10055 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , CLICK, Google, LINKTEXT, )</span>
+                <span class="method-start">10168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , THREAD, , , )</span>
+                <span class="method-start">10330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , CHILDWINDOW1, , , )</span>
+                <span class="method-start">13342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , SENDKEYS, Googlesearch, NAME, Bangladesh)</span>
+                <span class="method-start">13393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , THREAD, , , )</span>
+                <span class="method-start">14611 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(TC-003, , MAINWINDOW, , , )</span>
+                <span class="method-start">17622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , CLICK, SCB, XPATH, )</span>
+                <span class="method-start">17716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , THREAD, , , )</span>
+                <span class="method-start">17856 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , ALERTHANDLING, , , )</span>
+                <span class="method-start">20865 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , CHILDWINDOW1, , , )</span>
+                <span class="method-start">20921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , CLEAR, Googlesearch, NAME, )</span>
+                <span class="method-start">20993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , THREAD, , , )</span>
+                <span class="method-start">21052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , SENDKEYS, Googlesearch, NAME, New York)</span>
+                <span class="method-start">24068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , MAINWINDOW, , , )</span>
+                <span class="method-start">24379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , SUBMENUHANDLING, SM, LINKTEXT, )</span>
+                <span class="method-start">24413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , CLICK, Facebook, LINKTEXT, )</span>
+                <span class="method-start">24502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , CHILDWINDOW2, , , )</span>
+                <span class="method-start">24645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , SENDKEYS, FN, NAME, MAKSUD)</span>
+                <span class="method-start">24665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , HIGHLIGHT, PW, XPATH, )</span>
+                <span class="method-start">25943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HybridUnderTest(, , SCREENSHOT, , , )</span>
+                <span class="method-start">26096 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

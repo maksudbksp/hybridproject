@@ -1,0 +1,10 @@
+Website=https://www.facebook.com/
+FirstName=firstname
+LastName=u_0_e
+Email=//*[@id="u_0_h"]
+ConEmail=reg_email_confirmation__
+Password=reg_passwd__
+DOM=month
+DOB=day
+DOY=year
+GENDER=sex
